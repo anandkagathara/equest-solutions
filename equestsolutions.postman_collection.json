@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "d1e8c8d9-6364-4b8b-b01f-88f1ae133e86",
+		"name": "equestsolutions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17901072"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer mf8nrqICaHYD1y8wRMBksWm7U7gLgXy1mSWjhI0q",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
